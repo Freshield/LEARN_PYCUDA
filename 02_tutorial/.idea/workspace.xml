@@ -12,11 +12,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_begin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_begin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_begin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="482">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_cudainout.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_cudainout.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -37,6 +49,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test_begin.py" />
+        <option value="$PROJECT_DIR$/test_cudainout.py" />
       </list>
     </option>
   </component>
@@ -91,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_begin">
+  <component name="RunManager" selected="Python.test_cudainout">
     <configuration default="false" name="test_begin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,6 +118,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="02_tutorial" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_begin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_cudainout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="02_tutorial" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cudainout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,12 +221,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.test_begin" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_cudainout" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_begin" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_cudainout" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_begin" />
       </list>
     </recent_temporary>
   </component>
@@ -246,8 +279,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test_begin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="482">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cudainout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
